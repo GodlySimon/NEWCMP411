@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacon Ipsum Generator</title>
+
+    <link rel="stylesheet" href="assignment.css">
+    <script src="assignment.js"></script>
+</head>
+<body>
+    <h1>Bacon Ipsum Generator</h1>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <h2>Assignment
+            </h2>
+            <h2>Paragraph Generator</h2>
+            <label for="newType">Paragraphs or filler?</label>
+            <select id="newType">
+                <option value="all-meat">Paragraphs</option>
+                <option value="meat-and-filler">Paragraphs and filler</option>
+            </select><br />
+            <label for="newParagraphs">Paragraphs?</label>
+            <select id="newParagraphs">
+                <option value=1>1</option>
+                <option value=2>2</option>
+            </select><br /><br />
+            <input type="button" value="Get my Bacon Ipsum!" onclick="getBaconipsum()">
+        </div>
+        <div class="myflexboxColumn">
+            <h2>Paragraphs 1</h2>
+            <p id="myRawData">
+            </p>
+        </div>
+        <div class="myflexboxColumn">
+            <h2>Paragraphs 2</h2>
+            <p id="myFormattedData">
+            </p>
+        </div>
+            <p id="myEncryptedData">
+            </p>
+        </div>
+    </div>    
+</body>
+</html>
